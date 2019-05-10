@@ -5,7 +5,7 @@ function setup(){
   createCanvas(800,800);
   earth = new Gravity();
 
-  for (var i = 0; i < 10; i++){
+  for (var i = 0; i < 8; i++){
     x = random(200,100);
     y = random(200,100);
     m = 6;
